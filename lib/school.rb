@@ -9,7 +9,6 @@ class School
    def add_student(student, gr) 
      roster[gr] ||= []
      roster[gr] << student
-     
    end
    def grade(gr)
     roster.detect do |x, y| 
