@@ -18,4 +18,11 @@ class School
       end 
   end 
 end
+def sort 
+  new = {}
+  roster.each do |x, y| 
+    new[x] = y.sort 
+  end 
+  new
+end 
 end
